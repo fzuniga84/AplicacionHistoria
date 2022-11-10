@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="horizontal"
+    tools:context=".exploracion1">
+
+    <include
+        layout="@layout/action_bar_toolbar"
+        ></include>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="565dp"
+        android:layout_height="88dp"
+        android:fontFamily="@font/arima_madurai_black"
+        android:text="Haz clic en la opción correcta"
+        android:textColor="#370F02"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <TextView
+        android:id="@+id/txtPregunta"
+        android:layout_width="348dp"
+        android:layout_height="71dp"
+        android:fontFamily="@font/squadgoalsootf"
+        android:text="¿Qué estudia la Historia?"
+        android:textColor="#370F02"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="783dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687">
+
+        <RadioButton
+            android:id="@+id/resp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="Un cuento de hace muchos años"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+
+        <RadioButton
+            android:id="@+id/resp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="Un conjunto de cuentos narrados por gente anciana"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+
+        <RadioButton
+            android:id="@+id/resp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="El conjunto de acontecimientos sucedidos en el pasado"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btnatr"
+        android:onClick="ant1"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btnsig"
+        android:onClick="sig1"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

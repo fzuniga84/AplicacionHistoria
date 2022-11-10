@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="horizontal"
+    tools:context=".Organizacion3">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="600dp"
+        android:layout_height="343dp"
+        android:background="@drawable/piramid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <ImageView
+        android:id="@+id/eti2"
+        android:layout_width="143dp"
+        android:layout_height="53dp"
+        android:background="@drawable/etiqueta1"
+        android:tag="figure2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <ImageView
+        android:id="@+id/eti1"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:background="@drawable/etiqueta2"
+        android:tag="figure1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <ImageView
+        android:id="@+id/eti3"
+        android:layout_width="143dp"
+        android:layout_height="53dp"
+        android:background="@drawable/etiqueta3"
+        android:tag="figure3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
+    <ImageView
+        android:id="@+id/eti4"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:background="@drawable/etiqueta4"
+        android:tag="figure4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <ImageView
+        android:id="@+id/eti5"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:background="@drawable/etiqueta5"
+        android:tag="figure5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/soltar2"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:background="@drawable/drop1"
+        android:tag="figure2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <ImageView
+        android:id="@+id/soltar1"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:background="@drawable/drop1"
+        android:tag="figure1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <ImageView
+        android:id="@+id/soltar3"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:background="@drawable/drop1"
+        android:tag="figure3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.667"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <ImageView
+        android:id="@+id/soltar4"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:background="@drawable/drop1"
+        android:tag="figure4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <ImageView
+        android:id="@+id/soltar5"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:background="@drawable/drop1"
+        android:tag="figure5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+
+    <TextView
+        android:id="@+id/evaluar"
+        android:layout_width="436dp"
+        android:layout_height="101dp"
+        android:fontFamily="@font/arima_madurai_black"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#4C1604"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="1128dp"
+        android:layout_height="136dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/arima_madurai_black"
+        android:gravity="center_horizontal"
+        android:text="Arrastra hacia la piramíde y ubica según su estructura jerárquica cada una de las sociedades mayas"
+        android:textAlignment="center"
+        android:textColor="#370F02"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btnatr"
+        android:onClick="ant"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btnsig"
+        android:onClick="sig"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

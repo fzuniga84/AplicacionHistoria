@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/option_uno"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/option_tres"
+        android:title="Origen del hombre americano"/>
+
+    <item
+        android:id="@+id/option_cuatro"
+        android:title="Formas de vida"/>
+
+    <item
+        android:id="@+id/option_cinco"
+        android:title="Organización jerárquica"/>
+
+    <item
+        android:id="@+id/option_seis"
+        android:title="Salir"/>
+</menu>

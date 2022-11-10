@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Formas7">
+
+    <include
+        layout="@layout/action_bar_toolbar"
+        ></include>
+
+    <TextView
+        android:layout_width="577dp"
+        android:layout_height="69dp"
+        android:fontFamily="@font/arima_madurai_black"
+        android:text="Selecciona más de una opción"
+        android:textColor="#370F02"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="407dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:layout_width="1182dp"
+        android:layout_height="128dp"
+        android:fontFamily="@font/arima_madurai_black"
+        android:gravity="center_horizontal"
+        android:text="¿Cuáles fueron los primeros cultivos que surgieron durante la etapa arcaica?"
+        android:textAlignment="center"
+        android:textColor="#370F02"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/opcion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pimiento"
+        android:textSize="37dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="569dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <CheckBox
+        android:id="@+id/opcion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calabaza"
+        android:textSize="37dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="569dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <CheckBox
+        android:id="@+id/opcion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frijol"
+        android:textColor="#040404"
+        android:textSize="37dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="569dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <CheckBox
+        android:id="@+id/opcion3"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:text="Maíz"
+        android:textSize="37dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="569dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <Button
+        android:id="@+id/btn19"
+        android:layout_width="156dp"
+        android:layout_height="149dp"
+        android:background="@drawable/btnatr"
+        android:onClick="ant"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/btn20"
+        android:layout_width="156dp"
+        android:layout_height="149dp"
+        android:background="@drawable/btnsig"
+        android:onClick="sig"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

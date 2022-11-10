@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="horizontal"
+    tools:context=".Organizacion5">
+
+    <include
+        layout="@layout/action_bar_toolbar"
+        ></include>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="650dp"
+        android:layout_height="88dp"
+        android:fontFamily="@font/arima_madurai_black"
+        android:text="Haz clic en la opción correcta"
+        android:textColor="#370F02"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="820dp"
+        android:layout_height="159dp"
+        android:fontFamily="@font/squadgoalsootf"
+        android:gravity="center_horizontal"
+        android:text="¿A qué clase social pertenece la persona de la imagen?"
+        android:textAlignment="center"
+        android:textColor="#370F02"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <RadioGroup
+        android:id="@+id/rg10"
+        android:layout_width="397dp"
+        android:layout_height="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657">
+
+        <RadioButton
+            android:id="@+id/resp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="Sacerdote"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+
+        <RadioButton
+            android:id="@+id/resp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="Comerciante"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+
+        <RadioButton
+            android:id="@+id/resp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="Noble"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn27"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btnatr"
+        android:onClick="ant"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/btn28"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btnsig"
+        android:onClick="sig"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="305dp"
+        android:layout_height="390dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758"
+        app:srcCompat="@drawable/sacerdote" />
+</androidx.constraintlayout.widget.ConstraintLayout>

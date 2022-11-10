@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Exploracion3">
+
+    <include
+        layout="@layout/action_bar_toolbar"
+        ></include>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="565dp"
+        android:layout_height="88dp"
+        android:fontFamily="@font/arima_madurai_black"
+        android:text="Haz clic en la opción correcta"
+        android:textColor="#370F02"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/squadgoalsootf"
+        android:text="¿Cuántos años conforman una década?"
+        android:textColor="#370F02"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="410dp"
+        android:layout_height="266dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709">
+
+        <RadioButton
+            android:id="@+id/resp001"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="10 Años"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+
+        <RadioButton
+            android:id="@+id/resp002"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="100 años"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+
+        <RadioButton
+            android:id="@+id/resp003"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:fontFamily="@font/squadgoalsootf"
+            android:text="1000 años"
+            android:textColor="#370F02"
+            android:textSize="37dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btnatr"
+        android:onClick="ant"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btnsig"
+        android:onClick="sig"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
